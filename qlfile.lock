@@ -1,0 +1,12 @@
+("quicklisp" .
+ (:class qlot.source.ql:source-ql-all
+  :initargs (:project-name "quicklisp" :%version :latest)
+  :version "2018-04-30"))
+("dexador" .
+ (:class qlot.source.ql:source-ql
+  :initargs (:project-name "dexador" :%version :latest)
+  :version "ql-2018-04-30"))
+("prove" .
+ (:class qlot.source.ql:source-ql
+  :initargs (:project-name "prove" :%version :latest)
+  :version "ql-2018-04-30"))
